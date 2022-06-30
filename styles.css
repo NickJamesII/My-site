@@ -59,5 +59,8 @@ text-align: left;
 .image-round {
   border-radius: 35%;
 }
+div {
+  margin: auto;
+}
 
 
