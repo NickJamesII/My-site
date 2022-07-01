@@ -40,6 +40,7 @@ h3 {
 article {
   margin: 10px;
   padding: 30px;
+  background-color: 124017;
 }
 
 main p {
@@ -65,6 +66,10 @@ ol {
   font-size: 20px;
   color: white;
   text-align: left;
+}
+
+img {
+  width: 100px;
 }
 
 .image-round {
