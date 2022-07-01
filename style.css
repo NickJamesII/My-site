@@ -18,9 +18,9 @@ text-align: center;
 text-transform: uppercase;
 }
 
-main {
+body {
 background-color: 124017;
-margin: 10px;
+margin: 0px;
 }
 
 h2 {
