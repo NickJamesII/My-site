@@ -1,5 +1,5 @@
 a {
-font-family: cursive, sans-serif;
+font-family: fantasy, sans-serif;
 font-size: 30px;
 text-align: center;
 }
@@ -18,7 +18,7 @@ text-align: center;
 text-transform: uppercase;
 }
 
-body {
+main {
 background-color: 124017;
 margin: 10px;
 }
@@ -68,7 +68,7 @@ text-align: left;
 }
 
 .image-round {
-  border-radius: 35%;
+  border-radius: 60%;
 }
 
 div {
