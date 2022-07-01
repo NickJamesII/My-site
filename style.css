@@ -10,61 +10,61 @@ a:hover { color: yellow; }
 a:active { color: pink; }
 
 header h1 {
-font-family: Fantasy, sans-serif;
-font-size: 50px;
-letter-spacing: 2px;
-color: 5AE6F1;
-text-align: center;
-text-transform: uppercase;
+  font-family: Fantasy, sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: 5AE6F1;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 body {
-background-color: 124017;
-margin: 0px;
+  background-color: 124017;
+  margin: 0px;
 }
 
 h2 {
-font-family: fantasy, sans-serif;
-font-size: 30px;
-color: 5AE6F1;
-text-align: center;
+  font-family: fantasy, sans-serif;
+  font-size: 30px;
+  color: 5AE6F1;
+  text-align: center;
 }
 
 h3 {
-font-family: fantasy, sans-serif;
-font-size: 24px;
-color: 5AE6F1;
-text-align: center;
+  font-family: fantasy, sans-serif;
+  font-size: 24px;
+  color: 5AE6F1;
+  text-align: center;
 }
 
 article {
-margin: 10px;
-padding: 30px;
+  margin: 10px;
+  padding: 30px;
 }
 
 main p {
-font-family: fantasy, sans-serif;
-font-size: 20px;
-color: white;
+  font-family: fantasy, sans-serif;
+  font-size: 20px;
+  color: white;
 }
 
 hr {
-height: 5px;
-background-color: 5AE6F1;
+  height: 5px;
+  background-color: 5AE6F1;
 }
 
 ul {
-font-family: fantasy, sans-serif;
-font-size: 20px;
-text-align: left;
-color: white;
+  font-family: fantasy, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: white;
 }
 
 ol {
-font-family: fantasy, sans-serif;
-font-size: 20px;
-color: white;
-text-align: left;
+  font-family: fantasy, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: left;
 }
 
 .image-round {
