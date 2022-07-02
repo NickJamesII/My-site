@@ -29,7 +29,7 @@ h1 {
 /* Spent more time than I should have trying to get something decent for the body background, settled on green */
 body {
   background-color: green;
-  margin: 0px;
+  margin: 10px;
 }
 
 /* Keeping the font and color for sub-headers the same as initial header */
@@ -52,7 +52,7 @@ h3 {
 /* Initial uploads of the website were being picky, wasn't sure if the color issue was body or article, went with same for both. Might be why it looks so early 90's */
 article {
   margin: 10px;
-  padding: 30px;
+  padding: 60px;
   background-color: green;
 }
 
@@ -101,6 +101,7 @@ div {
   text-align: center;
 }
 
+/* The pure black background seemed chunky, decided to add white and padding. Still chunky, but... meh? */
 .header-background {
   background-color: white;
   padding: 40px;
