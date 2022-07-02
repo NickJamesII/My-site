@@ -1,14 +1,15 @@
 /* Establishing the link properties */
 a {
-font-family: fantasy, sans-serif;
-font-size: 20px;
-text-align: left;
+  font-family: fantasy, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 2px;
 }
-
-a:link { color: blue; }
-a:visited { color: pink; }/* Pink doesn't get enough love, so I made visited links pink */
-a:hover { color: yellow; }
-a:active { color: red; }
+/* Revision, altered some link colors to contrast better */
+a:link { color: yellow; }
+a:visited { color: hotpink; }/* Pink doesn't get enough love, so I made visited links pink */
+a:hover { color: red; }
+a:active { color: blue; }
 
 /* Defining aspects of the header, could have done better, feeling crunched for time */
 header {
@@ -38,7 +39,7 @@ body {
 h2 {
   font-family: fantasy, sans-serif;
   font-size: 30px;
-  color: blue;
+  color: yellow;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -46,7 +47,7 @@ h2 {
 h3 {
   font-family: fantasy, sans-serif;
   font-size: 24px;
-  color: blue;
+  color: yellow;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -59,13 +60,12 @@ article {
   border: 5px inset;
 }
 
-/* White seemed like a good color choice for a green background, noticed the letters initially were too close though, so gave it spacing */
+/* White seemed like a good color choice for a green background(Revision note; altered background to teal, not green. White lettering still seemed appropriate, though), noticed the letters initially were too close though, so gave it spacing */
 main p {
   font-family: fantasy, sans-serif;
   font-size: 20px;
   color: white;
   letter-spacing: 1px;
-  border: 5px inset;
 }
 
 /* Wanted to make a colored line for a line-break, inadvertently increasing the levels of early 90's vibes to the site */
@@ -101,6 +101,7 @@ img {
 
 /* To center my picture */
 div {
+  padding: 40px;/*Revision, added some padding to the div containing my picture, picture seemed a tad squished to the header, wanted to give extra space between them */
   margin: auto;
   text-align: center;
 }
@@ -113,7 +114,7 @@ div {
 
 footer {
   text-align: center;
-  color: white;
+  color: yellow;
   border: 5px inset;
 }
 
