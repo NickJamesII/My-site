@@ -107,11 +107,14 @@ div {
   padding: 40px;
 }
 
+footer {
+  text-align: center;
+  color: white;
+}
+
 .footer-background {
   background-color: grey;
   padding: 40px;
-  text-align: center;
-  color: white;
 }
 
 
