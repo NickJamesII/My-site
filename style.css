@@ -7,7 +7,7 @@ a {
 }
 /* Revision, altered some link colors to contrast better */
 a:link { color: yellow; }
-a:visited { color: hotpink; }/* Pink doesn't get enough love, so I made visited links pink */
+a:visited { color: white; }/* Pink doesn't get enough love, so I made visited links pink *//* Revision, had to abandon pink in favor of white for the sake of contrast. RIP pink, gone but not forgotten! */
 a:hover { color: red; }
 a:active { color: blue; }
 
@@ -127,5 +127,6 @@ footer {
   background-color: grey;
   padding: 40px;
 }
+/* Final Note: Revised color scheme for background/text, along with certain fonts, sizes and spacing. Lacking in individual style, the new layout should satsify contrast requirements. */
 
 
