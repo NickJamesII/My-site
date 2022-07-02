@@ -2,13 +2,13 @@
 a {
 font-family: fantasy, sans-serif;
 font-size: 20px;
-text-align: center;
+text-align: left;
 }
 
 a:link { color: blue; }
-a:visited { color: red; }
+a:visited { color: pink; }/* Pink doesn't get enough love, so I made visited links pink */
 a:hover { color: yellow; }
-a:active { color: pink; }
+a:active { color: red; }
 
 /* Defining aspects of the header, could have done better, feeling crunched for time */
 header {
@@ -38,6 +38,7 @@ h2 {
   font-size: 30px;
   color: blue;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -45,6 +46,7 @@ h3 {
   font-size: 24px;
   color: blue;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 /* Initial uploads of the website were being picky, wasn't sure if the color issue was body or article, went with same for both. Might be why it looks so early 90's */
@@ -72,7 +74,7 @@ hr {
 ul {
   font-family: fantasy, sans-serif;
   font-size: 20px;
-  text-align: center;
+  text-align: left;/* Possibly redundant considering I already defined this in the links properties, but I wanted to be sure it worked. I understand if this is expected to change in a revision */
   color: white;
 }
 
@@ -80,7 +82,7 @@ ol {
   font-family: fantasy, sans-serif;
   font-size: 20px;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 /* Wasn't sure just how big to make my face, first attempt seemed outrageously large. This felt reasonable */
