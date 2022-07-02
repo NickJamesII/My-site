@@ -29,6 +29,7 @@ h1 {
 }
 
 /* Spent more time than I should have trying to get something decent for the body background, settled on green */
+/* Revision, added border to main body as well as articles, trying to break up the monotonous background of the page */
 body {
   background-color: teal;
   margin: 10px;
@@ -36,10 +37,11 @@ body {
 }
 
 /* Keeping the font and color for sub-headers the same as initial header */
+/* Revision, altered color of text to contrast with new teal background better. Also altered font size slightly. Same for h3 */
 h2 {
   font-family: fantasy, sans-serif;
   font-size: 40px;
-  color: yellow;
+  color: hotpink;
   text-align: center;
   letter-spacing: 3px;
 }
@@ -47,7 +49,7 @@ h2 {
 h3 {
   font-family: fantasy, sans-serif;
   font-size: 30px;
-  color: yellow;
+  color: hotpink;
   text-align: center;
   letter-spacing: 3px;
 }
