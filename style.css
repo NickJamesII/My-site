@@ -14,6 +14,7 @@ a:active { color: red; }
 header {
   background-color: black;
   padding: 40px;
+  border: 5px inset;
 }
 
 /* Defining my header's properties */
@@ -28,8 +29,9 @@ h1 {
 
 /* Spent more time than I should have trying to get something decent for the body background, settled on green */
 body {
-  background-color: green;
+  background-color: teal;
   margin: 10px;
+  border 5px inset;
 }
 
 /* Keeping the font and color for sub-headers the same as initial header */
@@ -53,7 +55,8 @@ h3 {
 article {
   margin: 10px;
   padding: 160px;
-  background-color: green;
+  background-color: teal;
+  border: 5px inset;
 }
 
 /* White seemed like a good color choice for a green background, noticed the letters initially were too close though, so gave it spacing */
@@ -62,6 +65,7 @@ main p {
   font-size: 20px;
   color: white;
   letter-spacing: 1px;
+  border: 5px inset;
 }
 
 /* Wanted to make a colored line for a line-break, inadvertently increasing the levels of early 90's vibes to the site */
@@ -110,6 +114,7 @@ div {
 footer {
   text-align: center;
   color: white;
+  border: 5px inset;
 }
 
 .footer-background {
