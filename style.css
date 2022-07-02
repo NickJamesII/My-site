@@ -18,34 +18,34 @@ h1 {
   font-family: Fantasy, sans-serif;
   font-size: 50px;
   letter-spacing: 2px;
-  color: blue;
+  color: 1CFFFF;
   text-align: center;
   text-transform: uppercase;
 }
 
 body {
-  background-color: green;
+  background-color: 07451D;
   margin: 0px;
 }
 
 h2 {
   font-family: fantasy, sans-serif;
   font-size: 30px;
-  color: blue;
+  color: 1CFFFF;
   text-align: center;
 }
 
 h3 {
   font-family: fantasy, sans-serif;
   font-size: 24px;
-  color: blue;
+  color: 1CFFFF;
   text-align: center;
 }
 
 article {
   margin: 10px;
   padding: 30px;
-  background-color: green;
+  background-color: 07451D;
 }
 
 main p {
@@ -56,7 +56,7 @@ main p {
 
 hr {
   height: 5px;
-  background-color: blue;
+  background-color: 1CFFFF;
 }
 
 ul {
@@ -87,7 +87,7 @@ div {
 }
 
 .header-background {
-  background-color: blue;
+  background-color: white;
   padding: 40px;
 }
 
