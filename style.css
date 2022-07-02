@@ -52,7 +52,7 @@ h3 {
 /* Initial uploads of the website were being picky, wasn't sure if the color issue was body or article, went with same for both. Might be why it looks so early 90's */
 article {
   margin: 10px;
-  padding: 60px;
+  padding: 160px;
   background-color: green;
 }
 
@@ -104,6 +104,11 @@ div {
 /* The pure black background seemed chunky, decided to add white and padding. Still chunky, but... meh? */
 .header-background {
   background-color: white;
+  padding: 40px;
+}
+
+.footer-background {
+  background-color: grey;
   padding: 40px;
 }
 
