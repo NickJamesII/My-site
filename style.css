@@ -1,3 +1,4 @@
+/* Establishing the link properties */
 a {
 font-family: fantasy, sans-serif;
 font-size: 20px;
@@ -9,45 +10,51 @@ a:visited { color: red; }
 a:hover { color: yellow; }
 a:active { color: pink; }
 
+/* Defining aspects of the header, could have done better, feeling crunched for time */
 header {
   background-color: black;
   padding: 40px;
 }
 
+/* Defining my header's properties */
 h1 {
   font-family: Fantasy, sans-serif;
   font-size: 50px;
   letter-spacing: 2px;
-  color: 1CFFFF;
+  color: blue;
   text-align: center;
   text-transform: uppercase;
 }
 
+/* Spent more time than I should have trying to get something decent for the body background, settled on green */
 body {
-  background-color: 07451D;
+  background-color: green;
   margin: 0px;
 }
 
+/* Keeping the font and color for sub-headers the same as initial header */
 h2 {
   font-family: fantasy, sans-serif;
   font-size: 30px;
-  color: 1CFFFF;
+  color: blue;
   text-align: center;
 }
 
 h3 {
   font-family: fantasy, sans-serif;
   font-size: 24px;
-  color: 1CFFFF;
+  color: blue;
   text-align: center;
 }
 
+/* Initial uploads of the website were being picky, wasn't sure if the color issue was body or article, went with same for both. Might be why it looks so early 90's */
 article {
   margin: 10px;
   padding: 30px;
-  background-color: 07451D;
+  background-color: green;
 }
 
+/* White seemed like a good color choice for a green background, noticed the letters initially were too close though, so gave it spacing */
 main p {
   font-family: fantasy, sans-serif;
   font-size: 20px;
@@ -55,15 +62,17 @@ main p {
   letter-spacing: 1px;
 }
 
+/* Wanted to make a colored line for a line-break, inadvertently increasing the levels of early 90's vibes to the site */
 hr {
   height: 5px;
-  background-color: 1CFFFF;
+  background-color: blue;
 }
 
+/* Seemed best to keep the lists in a similar visual style to regular paragraphs, hence similar font, size, and color */
 ul {
   font-family: fantasy, sans-serif;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 
@@ -71,17 +80,20 @@ ol {
   font-family: fantasy, sans-serif;
   font-size: 20px;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 
+/* Wasn't sure just how big to make my face, first attempt seemed outrageously large. This felt reasonable */
 img {
   width: 200px;
 }
 
+/* Found a fairly decent circle at this radius %, kept it */
 .image-round {
   border-radius: 60%;
 }
 
+/* To center my picture */
 div {
   margin: auto;
   text-align: center;
